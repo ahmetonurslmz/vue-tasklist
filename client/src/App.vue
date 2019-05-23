@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <b-container class="bv-example-row">
-  <b-row>
-    <b-col>1 of 3</b-col>
-    <b-col>2 of 3</b-col>
-    <b-col>3 of 3</b-col>
-  </b-row>
-</b-container>
+    <b-container>
+      <b-row>
+        <b-col>
+         we will put main app here.
+        </b-col>
+      </b-row>
+    </b-container>
+
   </div>
 </template>
 
@@ -17,7 +18,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 export default {
   name: 'app',
   components: {
-    HelloWorld
   }
 }
 </script>
