@@ -1,4 +1,4 @@
-# VueJS v2 TaskList/toDoList with Boostrap4
+# VueJS v2 TaskList with Boostrap4
 
 ## Created by ahmetonurslmz. all rights reserved. https://ahmetonursolmaz.com.tr 
 
