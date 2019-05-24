@@ -3,8 +3,8 @@
     <b-container>
       <b-row align-h="center">
         <b-col cols="6">
-           <app-addTask v-on:create-task="createTask"></app-addTask>
-           <app-tasks :tasks="tasks"></app-tasks>
+           <app-addTask @create-task="createTask"></app-addTask>
+           <app-tasks :tasks="tasks" @delete-task="deleteTask"></app-tasks>
         </b-col>
       </b-row>
     </b-container>
@@ -42,6 +42,9 @@ export default {
   methods: {
     createTask(newTask) {
       this.tasks.unshift({...newTask})
+    },
+    deleteTask(id) {
+      this.tasks=this.tasks.filter(task =>  task.id != id)
     }
   }
 }
