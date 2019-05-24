@@ -1,13 +1,14 @@
-# VueJS TaskList/toDoList 
+# VueJS v2  TaskList/toDoList with Boostrap4
 
-## Created by ahmetonurslmz
+## Created by ahmetonurslmz. all rights reserved.
 
 ### Project setup
 ```
+cd client
 npm install
 ```
-
-#### Compiles and hot-reloads for development
+#### to Run
 ```
+cd client
 npm run serve
 ```
