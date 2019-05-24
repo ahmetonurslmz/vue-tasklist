@@ -9,6 +9,6 @@ npm install
 ```
 #### to Run
 ```
-cd client
+if you are not in client folder: cd client
 npm run serve
 ```
