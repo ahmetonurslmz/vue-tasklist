@@ -1,6 +1,6 @@
 # VueJS v2 TaskList with Boostrap4
 
-## Created by ahmetonurslmz. all rights reserved. https://ahmetonursolmaz.com.tr 
+## https://ahmetonursolmaz.com.tr 
 
 ### Project setup
 ```
